@@ -1,33 +1,65 @@
 import React, { Component } from 'react';
-import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBCollapse, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem,
-MDBHamburgerToggler } from 'mdbreact';
+import {
+  MDBNavbar,
+  MDBNavbarNav,
+  MDBNavItem,
+  // MDBNavLink,
+  MDBCollapse,
+  // MDBDropdown,
+  // MDBDropdownToggle,
+  // MDBDropdownMenu,
+  // MDBDropdownItem,
+  MDBHamburgerToggler,
+} from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 
+import ROUTES from '../../data/routes';
+
 class Mobilemenu extends Component {
-state = {
-  collapse1: false,
-  collapseID: ''
-}
+  state = {
+    collapse1: false,
+    collapseID: '',
+  };
 
-toggleCollapse = collapseID => () => {
-  this.setState(prevState => ({ collapseID: (prevState.collapseID !== collapseID ? collapseID : '') }));
-}
+  toggleCollapse = (collapseID) => () => {
+    this.setState((prevState) => ({
+      collapseID: prevState.collapseID !== collapseID ? collapseID : '',
+    }));
+  };
 
-toggleSingleCollapse = collapseId => {
-  this.setState({
-    ...this.state,
-    [collapseId]: !this.state[collapseId]
-  });
-}
+  toggleSingleCollapse = (collapseId) => {
+    this.setState({
+      ...this.state,
+      [collapseId]: !this.state[collapseId],
+    });
+  };
 
-render() {
-  return (
-    <Router>
+  render() {
+    return (
+      <Router>
         <MDBNavbar>
-            <MDBHamburgerToggler id="hamburger1" onClick={()=> this.toggleSingleCollapse('collapse1')} />
-              <MDBCollapse isOpen={this.state.collapse1} navbar>
-                <MDBNavbarNav left>
-                  <MDBNavItem active>
+          <MDBHamburgerToggler
+            id="hamburger1"
+            onClick={() => this.toggleSingleCollapse('collapse1')}
+          />
+          <MDBCollapse isOpen={this.state.collapse1} navbar>
+            <MDBNavbarNav left>
+              <MDBNavItem active>
+                {ROUTES.map((el) => (
+                  <a href={el.route} className="side-nav-item" key={el.title}>
+                    {el.title}
+                  </a>
+                ))}
+
+                {/* <a
+                  href={process.env.PUBLIC_URL + '/#about'}
+                  className="side-nav-item"
+                >
+                  About us
+                </a> */}
+              </MDBNavItem>
+
+              {/* <MDBNavItem active>
                     <MDBDropdown>
                         <MDBDropdownToggle nav caret>
                             <span>Home</span>
@@ -130,11 +162,11 @@ render() {
                             <MDBDropdownItem href={process.env.PUBLIC_URL + '/Checkout'}>Checkout</MDBDropdownItem>
                         </MDBDropdownMenu>
                     </MDBDropdown>
-                  </MDBNavItem>
-                </MDBNavbarNav>
-              </MDBCollapse>
-          </MDBNavbar>
-    </Router>
+                  </MDBNavItem> */}
+            </MDBNavbarNav>
+          </MDBCollapse>
+        </MDBNavbar>
+      </Router>
     );
   }
 }
