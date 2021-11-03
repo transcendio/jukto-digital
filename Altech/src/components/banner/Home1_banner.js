@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
   MDBAnimation,
   MDBCarousel,
@@ -6,12 +6,11 @@ import {
   MDBCarouselInner,
   MDBCarouselItem,
   MDBView,
-  MDBMask,
   MDBContainer,
   MDBRow,
-} from 'mdbreact';
+} from "mdbreact";
 
-import HOME from '../../data/home';
+import HOME from "../../data/home";
 
 export class CarouselPage extends Component {
   render() {
@@ -37,10 +36,10 @@ export class CarouselPage extends Component {
                     <div className="carousel-caption-inner banner1">
                       <MDBAnimation className="slideInUp" count={1} delay="2s">
                         <h2 className="ttm-textcolor-darkgrey flipInY">
-                          {TitleSpited[0]}{' '}
+                          {TitleSpited[0]}{" "}
                           <strong className="ttm-textcolor-skincolor">
                             {colorTitle}
-                          </strong>{' '}
+                          </strong>{" "}
                           {TitleSpited[1]}
                         </h2>
                       </MDBAnimation>

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import CONTACT from '../../data/contact';
-import SITE from '../../data/site';
+import React, { Component } from "react";
+import CONTACT from "../../data/contact";
+import SITE from "../../data/site";
 
 export class Footer extends Component {
   render() {
@@ -270,8 +270,15 @@ export class Footer extends Component {
                 <div>
                   <span>
                     Copyright ©{new Date().getFullYear()}&nbsp;
-                    <a href="/">{SITE.title}</a> by{' '}
-                    <a href={`mailto: ${SITE.developerEmail}`} target="_blank">
+                    <a href="/" target="_blank" rel="noopener noreferrer">
+                      {SITE.title}
+                    </a>{" "}
+                    by{" "}
+                    <a
+                      href={`mailto: ${SITE.developerEmail}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       {SITE.developer}
                     </a>
                   </span>
