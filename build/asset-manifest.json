@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/jukto-digital/static/css/main.0565bfe5.chunk.css",
+    "main.js": "/jukto-digital/static/js/main.e7aeae91.chunk.js",
+    "main.js.map": "/jukto-digital/static/js/main.e7aeae91.chunk.js.map",
+    "runtime-main.js": "/jukto-digital/static/js/runtime-main.57bb7fd2.js",
+    "runtime-main.js.map": "/jukto-digital/static/js/runtime-main.57bb7fd2.js.map",
+    "static/css/2.d3d91039.chunk.css": "/jukto-digital/static/css/2.d3d91039.chunk.css",
+    "static/js/2.c4700bbd.chunk.js": "/jukto-digital/static/js/2.c4700bbd.chunk.js",
+    "static/js/2.c4700bbd.chunk.js.map": "/jukto-digital/static/js/2.c4700bbd.chunk.js.map",
+    "index.html": "/jukto-digital/index.html",
+    "precache-manifest.f93bf85454c2cbd1f96a5d60dbfffeec.js": "/jukto-digital/precache-manifest.f93bf85454c2cbd1f96a5d60dbfffeec.js",
+    "service-worker.js": "/jukto-digital/service-worker.js",
+    "static/css/2.d3d91039.chunk.css.map": "/jukto-digital/static/css/2.d3d91039.chunk.css.map",
+    "static/css/main.0565bfe5.chunk.css.map": "/jukto-digital/static/css/main.0565bfe5.chunk.css.map",
+    "static/js/2.c4700bbd.chunk.js.LICENSE.txt": "/jukto-digital/static/js/2.c4700bbd.chunk.js.LICENSE.txt",
+    "static/media/1.webp": "/jukto-digital/static/media/1.9a68fe96.webp",
+    "static/media/10.webp": "/jukto-digital/static/media/10.36c633be.webp",
+    "static/media/11.webp": "/jukto-digital/static/media/11.6b0ff42e.webp",
+    "static/media/12.webp": "/jukto-digital/static/media/12.4721b881.webp",
+    "static/media/13.webp": "/jukto-digital/static/media/13.ccc03293.webp",
+    "static/media/2.webp": "/jukto-digital/static/media/2.fff58761.webp",
+    "static/media/3.webp": "/jukto-digital/static/media/3.dee3744e.webp",
+    "static/media/4.webp": "/jukto-digital/static/media/4.b72efffe.webp",
+    "static/media/5.webp": "/jukto-digital/static/media/5.d9d07a77.webp",
+    "static/media/6.webp": "/jukto-digital/static/media/6.aea5b132.webp",
+    "static/media/7.webp": "/jukto-digital/static/media/7.b67a9792.webp",
+    "static/media/8.webp": "/jukto-digital/static/media/8.a2a3a175.webp",
+    "static/media/9.webp": "/jukto-digital/static/media/9.67b3e012.webp",
+    "static/media/albright.PNG": "/jukto-digital/static/media/albright.fc9958e4.PNG",
+    "static/media/cover.jpg": "/jukto-digital/static/media/cover.1db32416.jpg",
+    "static/media/ptestudycentre.PNG": "/jukto-digital/static/media/ptestudycentre.54cc0817.PNG",
+    "static/media/sharmahouse.jpg": "/jukto-digital/static/media/sharmahouse.b27f2747.jpg",
+    "static/media/slick-theme.css": "/jukto-digital/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57bb7fd2.js",
+    "static/css/2.d3d91039.chunk.css",
+    "static/js/2.c4700bbd.chunk.js",
+    "static/css/main.0565bfe5.chunk.css",
+    "static/js/main.e7aeae91.chunk.js"
+  ]
+}

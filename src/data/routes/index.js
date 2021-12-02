@@ -1,8 +1,8 @@
 const ROUTES = [
-  { title: 'Home', route: '/#home' },
-  { title: 'About us', route: '/#about' },
-  { title: 'Products', route: '/#product' },
-  { title: 'Partners', route: '/#partner' },
-  { title: 'Contact', route: '/#contact' },
+  { title: "Home", route: "/jukto-digital/#home" },
+  { title: "About us", route: "/jukto-digital/#about" },
+  { title: "Products", route: "/jukto-digital/#product" },
+  { title: "Partners", route: "/jukto-digital/#partner" },
+  { title: "Contact", route: "/jukto-digital/#contact" },
 ];
 export default ROUTES;
