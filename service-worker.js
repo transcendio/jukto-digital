@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jukto-digital/precache-manifest.f93bf85454c2cbd1f96a5d60dbfffeec.js"
+  "/jukto-digital/precache-manifest.52175c8fb201010219d1f0f9fa22aedc.js"
 );
 
 self.addEventListener('message', (event) => {

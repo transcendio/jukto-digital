@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fce0559995043eb1306325c028c948ff",
+    "revision": "57b8c56cdf7820717d0e18cfbde40b17",
     "url": "/jukto-digital/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jukto-digital/static/css/2.d3d91039.chunk.css"
   },
   {
-    "revision": "8865321368781cf100dd",
+    "revision": "9e065191c408cf7dcfb4",
     "url": "/jukto-digital/static/css/main.0565bfe5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jukto-digital/static/js/2.c4700bbd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8865321368781cf100dd",
-    "url": "/jukto-digital/static/js/main.e7aeae91.chunk.js"
+    "revision": "9e065191c408cf7dcfb4",
+    "url": "/jukto-digital/static/js/main.dd206601.chunk.js"
   },
   {
     "revision": "c07e7d4640dec89cb11d",

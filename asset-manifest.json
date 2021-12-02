@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jukto-digital/static/css/main.0565bfe5.chunk.css",
-    "main.js": "/jukto-digital/static/js/main.e7aeae91.chunk.js",
-    "main.js.map": "/jukto-digital/static/js/main.e7aeae91.chunk.js.map",
+    "main.js": "/jukto-digital/static/js/main.dd206601.chunk.js",
+    "main.js.map": "/jukto-digital/static/js/main.dd206601.chunk.js.map",
     "runtime-main.js": "/jukto-digital/static/js/runtime-main.57bb7fd2.js",
     "runtime-main.js.map": "/jukto-digital/static/js/runtime-main.57bb7fd2.js.map",
     "static/css/2.d3d91039.chunk.css": "/jukto-digital/static/css/2.d3d91039.chunk.css",
     "static/js/2.c4700bbd.chunk.js": "/jukto-digital/static/js/2.c4700bbd.chunk.js",
     "static/js/2.c4700bbd.chunk.js.map": "/jukto-digital/static/js/2.c4700bbd.chunk.js.map",
     "index.html": "/jukto-digital/index.html",
-    "precache-manifest.f93bf85454c2cbd1f96a5d60dbfffeec.js": "/jukto-digital/precache-manifest.f93bf85454c2cbd1f96a5d60dbfffeec.js",
+    "precache-manifest.52175c8fb201010219d1f0f9fa22aedc.js": "/jukto-digital/precache-manifest.52175c8fb201010219d1f0f9fa22aedc.js",
     "service-worker.js": "/jukto-digital/service-worker.js",
     "static/css/2.d3d91039.chunk.css.map": "/jukto-digital/static/css/2.d3d91039.chunk.css.map",
     "static/css/main.0565bfe5.chunk.css.map": "/jukto-digital/static/css/main.0565bfe5.chunk.css.map",
@@ -38,6 +38,6 @@
     "static/css/2.d3d91039.chunk.css",
     "static/js/2.c4700bbd.chunk.js",
     "static/css/main.0565bfe5.chunk.css",
-    "static/js/main.e7aeae91.chunk.js"
+    "static/js/main.dd206601.chunk.js"
   ]
 }
