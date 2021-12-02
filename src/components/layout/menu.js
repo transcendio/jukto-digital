@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 // import { createBrowserHistory } from 'history';
 // import { BrowserRouter as Router, Route } from 'react-router-dom';
-import ROUTES from '../../data/routes';
+import ROUTES from "../../data/routes";
 export class Menu extends Component {
   render() {
     return (
@@ -9,7 +9,7 @@ export class Menu extends Component {
         <ul>
           {ROUTES.map((el) => (
             <li className="menu-hasdropdown" key={el.title}>
-              <a href={el.route}>{el.title}</a>
+              <a href={process.env.PUBLIC_URL + el.route}>{el.title}</a>
             </li>
           ))}
           {/* 

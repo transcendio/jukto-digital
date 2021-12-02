@@ -52,7 +52,7 @@ export class CarouselPage extends Component {
                       </MDBAnimation>
                       <MDBAnimation className="slideInUp" count={1} delay="3s">
                         <p>
-                          <a href={buttonRoute}>
+                          <a href={process.env.PUBLIC_URL + buttonRoute}>
                             <button className="ttm-btn ttm-btn-size-md ttm-bgcolor-skincolor ttm-textcolor-white">
                               Discuss Your Project
                             </button>
