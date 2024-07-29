@@ -1,0 +1,3 @@
+const BOTTOMBAR_NAVIGATIONS = [];
+
+export default BOTTOMBAR_NAVIGATIONS;

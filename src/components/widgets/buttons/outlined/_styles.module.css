@@ -1,0 +1,44 @@
+.button {
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: theme('fontSize.md');
+    font-weight: theme('fontWeight.medium');
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: theme('colors.primary.main');
+    color: theme('colors.primary.main');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.button:hover {
+    border-color: theme('colors.secondary.main');
+    color: theme('colors.secondary.main');
+}
+
+.primary {
+    border-color: theme('colors.primary.main');
+    color: theme('colors.primary.main');
+}
+
+.primary:hover {
+    border-color: theme('colors.secondary.main');
+    color: theme('colors.secondary.main');
+}
+
+.secondary {
+    border-color: theme('colors.secondary.main');
+    color: theme('colors.secondary.main');
+}
+
+.secondary:hover {
+    border-color: theme('colors.primary.main');
+    color: theme('colors.primary.main');
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+}
