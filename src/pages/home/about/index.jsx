@@ -5,6 +5,8 @@ import { ArrowRightIcon } from "assets/icons";
 
 import { CUSTOMER } from "assets/images";
 
+import DATA from "./_data";
+
 import _styles from "./_styles.module.css";
 
 const About = () => {
@@ -12,15 +14,12 @@ const About = () => {
     <section className={_styles.container}>
       <div className={_styles.column_wraper}>
         <h1 className={_styles.title}>
-          Best <span> Software Agency</span> in the Town
+          Best <span> Software Agency</span> in Town
         </h1>
         <h2 className={_styles.sub_title}>
           Since 2017 <span className={_styles.vertical_bar}></span>
         </h2>
-        <p className={_styles.description}>
-          Pleasure rationally encounter consequences that are extremely painful. Nor
-          again is there anyone who loves or pursues or desires to obtain
-        </p>
+        <p className={_styles.description}>{DATA?.about_section_description}</p>
         <div className={_styles.action_buttons}>
           <Link to="/contact">
             <OutlinedButton

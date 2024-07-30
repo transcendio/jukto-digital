@@ -1,26 +1,25 @@
 import { DIAMOND, IDEA, SECURITY } from "assets/images/features";
 
 export default {
-  description:
-    "Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain.",
+  description: `We prioritize personalized service and swift adaptation to market changes. Our diverse team brings fresh perspectives and a client-centric approach, ensuring your unique needs are met with excellence.`,
   cards: [
     {
       image: SECURITY,
       title: "Strong Security",
       description:
-        "Pleasure rationally encounter are extremely painful anyone who loves or pursues",
+        "We ensure robust security measures to safeguard your software and data against potential threats.",
     },
     {
       image: IDEA,
       title: "Creative Idea",
       description:
-        "Pleasure rationally encounter are extremely painful anyone who loves or pursues",
+        "Our innovative approach brings fresh, creative and effective solutions to your software development projects.",
     },
     {
       image: DIAMOND,
       title: "Best Service",
       description:
-        "Pleasure rationally encounter are extremely painful anyone who loves or pursues",
+        "We offer unparalleled service, ensuring a seamless and exceptional client experience throughout the development process.",
     },
   ],
 };

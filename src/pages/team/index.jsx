@@ -12,7 +12,9 @@ function Team() {
           const { name, designation, phone, email, image, linkdin } = item || {};
           return (
             <div key={name} className={_styles.card}>
-              <img src={image} alt="img" className={_styles.card__image} />
+              <div className={_styles.image_container}>
+                <img src={image} alt="img" className={_styles.card__image} />
+              </div>
               <h6 className={_styles.card__title}>{name}</h6>
               <p className={_styles.card__description}>{designation}</p>
               <div className={_styles.social_icons}>
