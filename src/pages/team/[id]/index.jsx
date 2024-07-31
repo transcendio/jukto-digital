@@ -27,8 +27,8 @@ function TeamByID() {
           </div>
           <div className={`${_styles.info_container}`}>
             <div className={`${_styles.detail_container}`}>
-              <span className={`${_styles.job_title}`}>Software Engineer</span>
-              <h1 className={`${_styles.name_title}`}>Mohsin Al - Mamun</h1>
+              <span className={`${_styles.job_title}`}>{designation}</span>
+              <h1 className={`${_styles.name_title}`}>{name}</h1>
               <p>
                 {about_me ||
                   ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odio
@@ -57,24 +57,3 @@ function TeamByID() {
   );
 }
 export default TeamByID;
-
-// <section className={_styles.container}>
-//   <div key={name} className={_styles.card}>
-//     <img src={image} alt="img" className={_styles.card__image} />
-//     <h6 className={_styles.card__title}>{name}</h6>
-//     <p className={_styles.card__description}>{designation}</p>
-//     <div className={_styles.social_icons}>
-//       <a href={`tel:${phone}`} className={_styles.social_link}>
-//         <PhoneIcon />
-//       </a>
-//       <a href={`mailto:${email}`} className={_styles.social_link}>
-//         <EmailIcon />
-//       </a>
-//       <a
-//         href={`https://www.linkedin.com/in/${linkdin}`}
-//         className={_styles.social_link}>
-//         <LinkdinIcon />
-//       </a>
-//     </div>
-//   </div>
-// </section>
