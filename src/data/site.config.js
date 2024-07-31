@@ -10,7 +10,7 @@ export const SOCIAL_CONTACTS = [
 export default {
   title: "Jukto Digital",
   description:
-    "We are legend Lorem ipsum dolor sitmet, nsecte ipisicing eit, sed do eiusmod tempor incidunt ut at do mana alqua anim ad minim",
+    "Innovative software solutions for custom development, seamless integrations, and measurable growth. Partner with us for excellence in software development.",
   developers: {
     name: "",
   },

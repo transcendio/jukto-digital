@@ -21,7 +21,7 @@
 }
 
 .card {
-  height: 280px;
+  min-height: 320px;
   max-width: 250px;
   border-radius: 25% 10%;
   display: flex;
@@ -53,9 +53,11 @@
   color: theme("colors.primary.main");
   font-size: theme("fontSize.xl");
   font-weight: theme("fontWeight.semibold");
+  text-align: center;
 }
 
 .card__description {
+  text-align: center;
   color: theme("colors.text.secondary");
 }
 
