@@ -9,28 +9,37 @@ function Team() {
       <h1 className={_styles.title}>Team members</h1>
       <div className={_styles.card_wraper}>
         {DATA.map((item) => {
-          const { name, designation, phone, email, image, linkdin } = item || {};
+          const { name, id, designation, phone, email, image, linkedin } =
+            item || {};
           return (
-            <div key={name} className={_styles.card}>
-              <div className={_styles.image_container}>
-                <img src={image} alt="img" className={_styles.card__image} />
+            <a href={`team/${id}`}>
+              <div key={name} className={_styles.card}>
+                <div className={_styles.image_container}>
+                  <img src={image} alt="img" className={_styles.card__image} />
+                </div>
+                <h6 className={_styles.card__title}>{name}</h6>
+                <p className={_styles.card__description}>{designation}</p>
+                <div className={_styles.social_icons}>
+                  {phone && (
+                    <a href={`tel:${phone}`} className={_styles.social_link}>
+                      <PhoneIcon />
+                    </a>
+                  )}
+                  {email && (
+                    <a href={`mailto:${email}`} className={_styles.social_link}>
+                      <EmailIcon />
+                    </a>
+                  )}
+                  {linkedin && (
+                    <a
+                      href={`https://www.linkedin.com/in/${linkedin}`}
+                      className={_styles.social_link}>
+                      <LinkdinIcon />
+                    </a>
+                  )}
+                </div>
               </div>
-              <h6 className={_styles.card__title}>{name}</h6>
-              <p className={_styles.card__description}>{designation}</p>
-              <div className={_styles.social_icons}>
-                <a href={`tel:${phone}`} className={_styles.social_link}>
-                  <PhoneIcon />
-                </a>
-                <a href={`mailto:${email}`} className={_styles.social_link}>
-                  <EmailIcon />
-                </a>
-                <a
-                  href={`https://www.linkedin.com/in/${linkdin}`}
-                  className={_styles.social_link}>
-                  <LinkdinIcon />
-                </a>
-              </div>
-            </div>
+            </a>
           );
         })}
       </div>

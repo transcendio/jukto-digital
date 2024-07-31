@@ -15,29 +15,66 @@ function TeamByID() {
 
   if (!targed_meamber) return <NotFound />;
 
-  const { name, designation, phone, email, image, linkdin } = targed_meamber || {};
+  const { name, designation, phone, email, image, linkdin, about_me } =
+    targed_meamber || {};
 
   return (
-    <section className={_styles.container}>
-      <div key={name} className={_styles.card}>
-        <img src={image} alt="img" className={_styles.card__image} />
-        <h6 className={_styles.card__title}>{name}</h6>
-        <p className={_styles.card__description}>{designation}</p>
-        <div className={_styles.social_icons}>
-          <a href={`tel:${phone}`} className={_styles.social_link}>
-            <PhoneIcon />
-          </a>
-          <a href={`mailto:${email}`} className={_styles.social_link}>
-            <EmailIcon />
-          </a>
-          <a
-            href={`https://www.linkedin.com/in/${linkdin}`}
-            className={_styles.social_link}>
-            <LinkdinIcon />
-          </a>
+    <>
+      <section className={_styles.section}>
+        <div className={_styles.container}>
+          <div className={`${_styles.image_container} flex justify-center`}>
+            <img src={image} alt="img" className={_styles.img} />
+          </div>
+          <div className={`${_styles.info_container}`}>
+            <div className={`${_styles.detail_container}`}>
+              <span className={`${_styles.job_title}`}>Software Engineer</span>
+              <h1 className={`${_styles.name_title}`}>Mohsin Al - Mamun</h1>
+              <p>
+                {about_me ||
+                  ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odio
+                rerum reprehenderit dolore. Ad nulla fugit numquam est accusamus
+                natus ullam molestias harum sequi sapiente. Deleniti dignissimos
+                cumque soluta atque.`}
+              </p>
+            </div>
+            <div className={_styles.social_icons}>
+              <a href={`tel:${phone}`} className={_styles.social_link}>
+                <PhoneIcon />
+              </a>
+              <a href={`mailto:${email}`} className={_styles.social_link}>
+                <EmailIcon />
+              </a>
+              <a
+                href={`https://www.linkedin.com/in/${linkdin}`}
+                className={_styles.social_link}>
+                <LinkdinIcon />
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 export default TeamByID;
+
+// <section className={_styles.container}>
+//   <div key={name} className={_styles.card}>
+//     <img src={image} alt="img" className={_styles.card__image} />
+//     <h6 className={_styles.card__title}>{name}</h6>
+//     <p className={_styles.card__description}>{designation}</p>
+//     <div className={_styles.social_icons}>
+//       <a href={`tel:${phone}`} className={_styles.social_link}>
+//         <PhoneIcon />
+//       </a>
+//       <a href={`mailto:${email}`} className={_styles.social_link}>
+//         <EmailIcon />
+//       </a>
+//       <a
+//         href={`https://www.linkedin.com/in/${linkdin}`}
+//         className={_styles.social_link}>
+//         <LinkdinIcon />
+//       </a>
+//     </div>
+//   </div>
+// </section>
