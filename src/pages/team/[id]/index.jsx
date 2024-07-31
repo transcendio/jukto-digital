@@ -15,7 +15,7 @@ function TeamByID() {
 
   if (!targed_meamber) return <NotFound />;
 
-  const { name, designation, phone, email, image, linkdin, about_me } =
+  const { name, designation, phone, email, image, linkedin, about_me } =
     targed_meamber || {};
 
   return (
@@ -45,7 +45,7 @@ function TeamByID() {
                 <EmailIcon />
               </a>
               <a
-                href={`https://www.linkedin.com/in/${linkdin}`}
+                href={`https://www.linkedin.com/in/${linkedin}`}
                 className={_styles.social_link}>
                 <LinkdinIcon />
               </a>
