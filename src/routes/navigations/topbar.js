@@ -1,5 +1,5 @@
 const TOPBAR_NAVIGATIONS = [
-  { title: "Service", path: "/service" },
+  // { title: "Service", path: "/service" },
   { title: "Team", path: "/team" },
   { title: "Contact", path: "/contact" },
 ];

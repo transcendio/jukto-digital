@@ -7,8 +7,6 @@ import LinkdinIcon from "./linkdin.jsx";
 import LocationIcon from "./location.jsx";
 import MenuIcon from "./menu.jsx";
 import PhoneIcon from "./phone.jsx";
-import TwitterIcon from "./twitter.jsx";
-import YoutubeIcon from "./youtube.jsx";
 
 export {
   ArrowRightIcon,
@@ -20,6 +18,4 @@ export {
   LocationIcon,
   MenuIcon,
   PhoneIcon,
-  TwitterIcon,
-  YoutubeIcon,
 };

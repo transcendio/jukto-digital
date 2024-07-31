@@ -12,6 +12,7 @@
   text-transform: capitalize;
   font-weight: theme("fontWeight.bold");
   color: theme("colors.primary.main");
+  text-align: center;
 }
 
 .card_wraper {
@@ -23,7 +24,7 @@
 .card {
   min-height: 320px;
   max-width: 250px;
-  border-radius: 25% 10%;
+  border-radius: 20% 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,6 +34,7 @@
   /* outline: 1px solid theme("colors.primary.main"); */
   outline: 0.8px solid theme("colors.common.grey");
   justify-content: center;
+  cursor: pointer;
 }
 
 .image_container {

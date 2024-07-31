@@ -1,9 +1,10 @@
-import { FacebookIcon, LinkdinIcon, TwitterIcon, YoutubeIcon } from "assets/icons";
+import { FacebookIcon, LinkdinIcon } from "assets/icons";
 
 export const SOCIAL_CONTACTS = [
-  { icon: FacebookIcon, link: "facebook" },
-  { icon: TwitterIcon, link: "youtube" },
-  { icon: YoutubeIcon, link: "twiteer" },
+  {
+    icon: FacebookIcon,
+    link: "https://www.facebook.com/profile.php?id=100078112008282",
+  },
   { icon: LinkdinIcon, linl: "linkdin" },
 ];
 
@@ -12,7 +13,7 @@ export default {
   description:
     "Innovative software solutions for custom development, seamless integrations, and measurable growth. Partner with us for excellence in software development.",
   developers: {
-    name: "",
+    name: "saimum,shanaim",
   },
   contacts: {
     email: "masnun@jukto.digital",
