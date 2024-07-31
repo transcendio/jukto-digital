@@ -1,0 +1,48 @@
+@import "preflight.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --toastify-toast-width: 300px;
+  --toastify-toast-min-height: 50px;
+  --toastify-toast-max-height: 100px;
+
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+  --font-mono: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+
+
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: 0, 0, 0;
+  }
+} */
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: var(--font-mono);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  background-color: transparent;
+}
+
+
+/* alert box css override */
+
+.swal2-icon {
+  font-size: 12px;
+}

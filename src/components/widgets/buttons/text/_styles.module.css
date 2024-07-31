@@ -1,0 +1,39 @@
+.button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: theme('fontSize.md');
+    font-weight: theme('fontWeight.medium');
+    color: 'inherit';
+}
+
+.small {
+    font-size: theme('fontSize.base');
+}
+
+.button:hover {
+    color: theme('colors.secondary.main');
+}
+
+.primary {
+    color: theme('colors.primary.main');
+}
+
+.primary:hover {
+    color: theme('colors.secondary.main');
+}
+
+.secondary {
+    color: theme('colors.secondary.main');
+}
+
+.secondary:hover {
+    color: theme('colors.primary.main');
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    fill: none;
+}

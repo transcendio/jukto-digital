@@ -1,0 +1,28 @@
+.root {
+    width: 100%;
+    max-width: theme('screens.xxl');
+    margin: 0px auto;
+}
+
+.container {
+    width: 100%;
+    min-height: 75vh;
+    background-color: theme('colors.background.white');
+    padding-left: theme('padding.root');
+    padding-right: theme('padding.root');
+}
+
+
+@media (max-width: theme('screens.md')) {
+    .container {
+        padding-left: theme('padding.container');
+        padding-right: theme('padding.container');
+    }
+}
+
+@media (max-width: theme('screens.xs')) {
+    .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

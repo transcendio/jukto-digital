@@ -1,0 +1,37 @@
+.button {
+    padding: 4px;
+    border-radius: 5px;
+    font-size: theme('fontSize.md');
+    font-weight: theme('fontWeight.medium');
+    color: theme('colors.primary.main');
+}
+
+.small {
+    font-size: theme('fontSize.base');
+}
+
+.button:hover {
+    color: theme('colors.secondary.main');
+}
+
+.primary {
+    color: theme('colors.primary.main');
+}
+
+.primary:hover {
+    color: theme('colors.secondary.main');
+}
+
+.secondary {
+    color: theme('colors.secondary.main');
+}
+
+.secondary:hover {
+    color: theme('colors.primary.main');
+}
+
+.icon {
+    height: 1.5em;
+    width: 1.5em;
+    fill: none;
+}
