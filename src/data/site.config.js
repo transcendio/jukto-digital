@@ -5,7 +5,7 @@ export const SOCIAL_CONTACTS = [
     icon: FacebookIcon,
     link: "https://www.facebook.com/profile.php?id=100078112008282",
   },
-  { icon: LinkdinIcon, linl: "linkdin" },
+  { icon: LinkdinIcon, linl: "https://www.linkedin.com/company/104119125" },
 ];
 
 export default {

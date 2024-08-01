@@ -9,6 +9,7 @@ export default ({ mode }) => {
 
   return defineConfig({
     plugins: [react()],
+    base: `/${process.env.VITE_REPO}/`,
     server: {
       host: process.env.VITE_HOST,
       port: process.env.VITE_PORT,
