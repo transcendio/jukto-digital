@@ -12,8 +12,8 @@ function Bottombar() {
           <h1 className={_styles.logo_title}>{SITE_CONFIG.title}</h1>
           <p className={_styles.description}>{SITE_CONFIG.description}</p>
           <div className={_styles.social_icons}>
-            {SOCIAL_CONTACTS?.map(({ link, icon: Icon }) => (
-              <a href={link} key={link} className={_styles.social_link}>
+            {SOCIAL_CONTACTS?.map(({ link, icon: Icon }, index) => (
+              <a href={link} key={index} className={_styles.social_link}>
                 <Icon />
               </a>
             ))}
