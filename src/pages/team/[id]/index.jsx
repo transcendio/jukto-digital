@@ -29,13 +29,7 @@ function TeamByID() {
             <div className={`${_styles.detail_container}`}>
               <span className={`${_styles.job_title}`}>{designation}</span>
               <h1 className={`${_styles.name_title}`}>{name}</h1>
-              <p>
-                {about_me ||
-                  ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odio
-                rerum reprehenderit dolore. Ad nulla fugit numquam est accusamus
-                natus ullam molestias harum sequi sapiente. Deleniti dignissimos
-                cumque soluta atque.`}
-              </p>
+              <p>{about_me || `I am a employee of jukto digital.`}</p>
             </div>
             <div className={_styles.social_icons}>
               <a href={`tel:${phone}`} className={_styles.social_link}>
