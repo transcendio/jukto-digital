@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { OutlinedButton } from "components/widgets/buttons";
 import { ArrowRightIcon } from "assets/icons";
 
-import DATA from "../_data";
 import { COVER } from "assets/images";
+import DATA from "../_data";
 
 import _styles from "./_styles.module.css";
 
@@ -15,7 +15,7 @@ const Header = () => {
         <h1 className={_styles.title}>
           Full Solution for your <span>Business</span> Development
         </h1>
-        <p className={_styles.description}>{DATA?.header_section_description}</p>
+        <p className={_styles.description}>{DATA?.description}</p>
         <div className={_styles.action_buttons}>
           <Link to="/contact">
             <OutlinedButton
