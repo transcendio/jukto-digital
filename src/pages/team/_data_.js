@@ -19,7 +19,7 @@ export default [
     email: "masnun@jukto.digital",
     image: MASNUN,
     linkedin: "masnun",
-    about_me: ``,
+    about_me: `Building and scaling successful products since 2009. Polyglot developer, passionate about software design and architecture.`,
   },
   {
     name: "Saimum islam",
@@ -79,7 +79,8 @@ export default [
     email: "rumpapaul0201@gmail.com",
     image: RUMPA,
     linkedin: "rumpapaul",
-    about_me: `Building and scaling successful products since 2009. Polyglot developer, passionate about software design and architecture.`,
+    about_me: `I am a skilled frontend developer specializing in building dynamic and responsive web applications with React. I focus on seamlessly integrating APIs with the front-end to create efficient and user-friendly solutions. Collaborating with cross-functional teams, I translate feature requirements into high-quality, scalable applications.
+I conduct thorough testing to ensure reliability and performance while exploring third-party libraries to streamline development. My passion for research and innovation helps drive technological advancements, enabling creative solutions for business challenges. Committed to writing clean, maintainable code, I strive to enhance user experiences and contribute to the team's success.`,
   },
   {
     name: "S.M.Sha Naim Shourov ",
@@ -89,17 +90,7 @@ export default [
     email: "shanaim2k15@gmail.com",
     image: SHANAIM,
     linkedin: "shanaim",
-    about_me: `I’m a self-motivated and enthusiastic individual with a passion
-
-    for web development, problem-solving, and business intelli-
-    gence. My aspiration is to transition into a role as a Software
-    
-    Engineer where I can leverage my expertise to enhance the
-    operations of a reputable organization that esteems creativity,
-    dedication, and collaborative synergy. I thrive in challenging
-    situations, embrace leadership opportunities, and consistently
-    strive for personal and professional growth.I am committed to
-    making a positive impact in the software engineering sector.`,
+    about_me: `I’m a self-motivated and enthusiastic individual with a passion for web development, problem-solving, and business intelli-gence. My aspiration is to transition into a role as a Software Engineer where I can leverage my expertise to enhance the operations of a reputable organization that esteems creativity, dedication, and collaborative synergy. I thrive in challenging situations, embrace leadership opportunities, and consistently strive for personal and professional growth.I am committed to making a positive impact in the software engineering sector.`,
   },
   {
     name: "Mohsin Al - Mamun",
@@ -109,7 +100,8 @@ export default [
     email: "oxgmohsin@gmail.com",
     image: MOHSIN,
     linkedin: "mohsinalmamun",
-    about_me: ``,
+    about_me: `I am a frontend developer at Jukto Digital, contributing to the Albright ai-one platform by building dynamic and user-friendly interfaces. I focus on creating seamless user experiences through clean, maintainable code and efficient API integrations.
+While my primary expertise lies in frontend development, I also take on project management responsibilities, ensuring smooth collaboration across teams and timely delivery of milestones. Additionally, I oversee the QA testing process to maintain the platform's quality and performance.`,
   },
   {
     name: "Shamima Nasrin",
@@ -119,7 +111,7 @@ export default [
     email: "nasrin.shamima32@gmail.com",
     image: MITU,
     linkedin: "shamima-mitu-8763a7187",
-    about_me: ``,
+    about_me: `I am a QA Developer at Jukto Digital, dedicated to ensuring the quality and reliability of the Albright ai-one platform. I work closely with the development team to understand new features, thoroughly test those, and report any issues with professionalism. When needed, I collaborate with developers to clarify and resolve bugs, ensuring smooth functionality. Through rigorous testing, I contribute to maintaining project integrity and enhancing the overall development process.`,
   },
   {
     name: "Rasel Howlader",
@@ -128,6 +120,6 @@ export default [
     phone: "+8801747978612",
     email: "mr0860344@gmail.com",
     image: RUSSEL,
-    about_me: ``,
+    about_me: `I am a employee of Jukto Digital.`,
   },
 ];
